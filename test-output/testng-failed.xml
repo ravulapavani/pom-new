@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="classes">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="driverFactory.EmpReg">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- driverFactory.EmpReg -->
+      <class name="driverFactory.LoginTest">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- driverFactory.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
